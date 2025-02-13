@@ -12,7 +12,7 @@ const upload = (data, name) => {
 
     // Wait for storage to be ready
     storage.on("ready", () => {
-      console.log("Storage is ready. Proceeding with upload.");
+      console.log("Storage is ready now. Proceeding with upload.");
 
       const uploadStream = storage.upload({ name, allowUploadBuffering: true });
 
