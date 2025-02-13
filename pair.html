@@ -13,19 +13,18 @@
       height: 100vh;
       margin: 0;
       background-color: #141414;
+      background-image: url('https://i.ibb.co/YQ0PJh5/IMG-20250126-041546.png'); /* Add your image URL here */
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
       font-family: 'Arial', sans-serif;
       color: #fff; /* Set the text color to white */
     }
-
     .container {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-
     .box {
       width: 300px;
       height: 330px;
@@ -38,19 +37,15 @@
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
       position: relative;
     }
-
     #text {
       color: #ffffff; /* Set the text color to black (#000) */
     }
-
     .input-container input {
       color: #ffffff; /* Set the text color to black (#000) */
     }
-
     .centered-text {
       color: #ffffff; /* Set the text color to black (#000) */
     }
-
     .input-container {
       display: flex;
       background: #ffffff; /* Update background color */
@@ -60,7 +55,6 @@
       max-width: 300px;
       width: 100%;
     }
-
     .input-container input {
       border-radius: 0.8rem 0 0 0.8rem;
       background: #000000; /* Update background color */
@@ -72,13 +66,11 @@
       color: #ecf0f1; /* Set text color to light grey */
       transition: all 0.2s ease-in-out;
     }
-
     .input-container input:focus {
       border-left: 2px solid #075e54;
       outline: none;
       box-shadow: inset 13px 13px 10px #075e54, inset -13px -13px 10px #2c3e50;
     }
-
     .input-container button {
       flex-basis: 25%;
       padding: 1rem;
@@ -92,46 +84,37 @@
       border-radius: 0 1rem 1rem 0;
       transition: all 0.2s ease-in-out;
     }
-
     .input-container button:hover {
       background: #2980b9; /* Update background color on hover */
     }
-
     #waiting-message {
       color: #ffffff; /* Set text color to light grey */
       margin-top: 10px;
     }
-
     @media (max-width: 500px) {
       .input-container {
         flex-direction: column;
       }
-
       .input-container input {
         border-radius: 0.8rem;
       }
-
       .input-container button {
         padding: 1rem;
         border-radius: 0.8rem;
       }
     }
-
     .centered-text {
       text-align: center;
     }
-
     /* Add styles for the loading spinner */
     #loading-spinner {
       display: none;
       color: white;
       margin-top: 10px;
     }
-
     .fa-spinner {
       animation: spin 2s linear infinite;
     }
-
     @keyframes spin {
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
@@ -149,7 +132,7 @@
             <br>
             <h6>🔢 Enter your number with country code. CASPER TECH WEB PAIR</h6>
             <div class="input-container">
-              <input placeholder="+94704xxxxxx" type="number" id="number" placeholder="❗ Enter your phone number with country code, ROBIN WEB PAIR" name="">
+              <input placeholder="+2547xxxxxx" type="number" id="number" placeholder="❗ Enter your phone number with country code, ROBIN WEB PAIR" name="">
               <button id="submit">PAIR TO CASPER XMD V2</button>
             </div>
             <!-- Add the loading spinner -->
@@ -164,11 +147,8 @@
       </div>
     </div>
   </div>
-  <script
-  src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"
-  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"></script>
   <script>
-    
     let a = document.getElementById("pair");
     let b = document.getElementById("submit");
     let c = document.getElementById("number");
@@ -224,4 +204,4 @@
     });
   </script>
 </body>
-</html>
+  </html>
