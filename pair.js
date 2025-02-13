@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `ROBIN MAX YT BOT PAIR\n\nWeb pair msg`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑\n\n> ROBIN MAX`
+            const sid = `CASPPER-XMD-V2 PAIR\n\nWeb pair msg`;
+            const mg = `🛑 *Do not share this code to anyone* 🛑\n\n> CASPPER-XMD-V2`
             await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/ROBIN-MAX-YT/BOT-HELPER/refs/heads/main/Flux_Dev_a_surreal_and_vibrant_cinematic_photo_of_Create_an_ac_2.jpeg",
+                url: "https://i.ibb.co/19rs7cf/bf8ae0e5-d730-48df-b109-e36ac59045ce.webp",
               },
               caption: sid,
             });
@@ -111,7 +111,7 @@ router.get("/", async (req, res) => {
         }
       });
     } catch (err) {
-      exec("pm2 restart Robin-md");
+      exec("pm2 restart CASPPER-XMD-V2);
       console.log("service restarted");
       RobinPair();
       await removeFile("./session");
