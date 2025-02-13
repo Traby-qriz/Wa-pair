@@ -111,7 +111,7 @@ router.get("/", async (req, res) => {
         }
       });
     } catch (err) {
-      exec("pm2 restart CASPPER-XMD-V2);
+      exec("pm2 restart Robin-md);
       console.log("service restarted");
       RobinPair();
       await removeFile("./session");
